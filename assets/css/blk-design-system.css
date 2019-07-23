@@ -20798,14 +20798,12 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
   color: #00BAFF; 
 }
 
+.map-color{
+  background-color: #FFFFFF;
+}
 .logo-blue {
   width: 15%;
 }
-
-
-
-
-
 
 .col-8-color{
   background-color: #FFFFFF;
