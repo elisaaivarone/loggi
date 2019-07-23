@@ -2,10 +2,12 @@
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 8,
-    center: { lat: -23.6, lng: -46.7 },
+    zoom: 13,
+    // center: { lat: -23.6, lng: -46.7 },
     mapTypeId: 'roadmap'
   });
+
+  map.setCenter(new google.maps.LatLng(-23.6, -46.7));
 
   // Create a <script> tag and set the USGS URL as the source.
   var script = document.createElement('script');
@@ -18,7 +20,7 @@ function initMap() {
 }
 // console.log(avaiableDrivers());
 function eqfeed_callback(results) {
-  const heatmapData = avaiableDrivers().map(driver => {return new google.maps.LatLng(driver.lat, driver.lng)});
+  const heatmapData = avaiableDrivers().map(driver => {return new google.maps.LatLng({lat: driver.lat, lng: driver.lng})});
   console.log(heatmapData);
   // for (var i = 0; i < results.features.length; i++) {
   //   var coords = results.features[i].geometry.coordinates;
