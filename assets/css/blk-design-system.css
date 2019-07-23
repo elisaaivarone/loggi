@@ -20791,12 +20791,21 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 }
 
 .body-color {
-  background-color: #00BAFF;
+  background-color:#00BAFF;
 }
 
 .btn-color{
   color: #00BAFF; 
 }
+
+.logo-blue {
+  width: 15%;
+}
+
+
+
+
+
 
 .col-8-color{
   background-color: #FFFFFF;
