@@ -20798,5 +20798,8 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
   color: #00BAFF; 
 }
 
+.col-8-color{
+  background-color: #FFFFFF;
+}
 
 
