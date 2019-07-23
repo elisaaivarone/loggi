@@ -1,4 +1,5 @@
-const avaiableDrivers = [{
+const avaiableDrivers = () => { 
+  return [{
   lng: -46.73583221435547,
   lat: -23.631677627563477,
   busy: false
@@ -339,3 +340,5 @@ const avaiableDrivers = [{
   busy: false
 }
 ]
+}
+// export default avaiableDrivers();
