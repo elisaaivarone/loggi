@@ -13,7 +13,11 @@
 }
   
 .size-topbar {
-  height: 100px;
+  margin-bottom: 0px !important;
+}
+
+.size-nav {
+  height: 98px !important;
 }
 
 .profile-img {
