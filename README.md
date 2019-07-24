@@ -43,11 +43,11 @@ As cerimônias aconteciam de 2 em 2 horas para que todo o squad tivesse total co
 
 ## UX
 
--Brainstorm
--Crazy 4´s
--Protótipo
--Teste de usabilidade
--Feedback das pessoas que passavam para ver o projeto
+-Brainstorm <br>
+-Crazy 4´s <br>
+-Protótipo <br>
+-Teste de usabilidade <br>
+-Feedback das pessoas que passavam para ver o projeto <br>
 
 ## Personas
 
@@ -58,10 +58,10 @@ As personas foram baseadas a partir da informação de que um ou mais funcionár
 Site responsivo para pesquisa de concentração de mensageiros Loggi na cidade de SP e por regiões.
 Futuras implementações compreenderão as cidades: Belo Horizonte, Rio de Janeiro, Recife, Manaus e Brasília
 Utilizamos as linguagens / framework / API:
--Javascript Vanilla JS
--Bootstrap v.4
--Maps JavaScript API
--Loggi API
+-Javascript Vanilla JS <br>
+-Bootstrap v.4 <br>
+-Maps JavaScript API <br>
+-Loggi API <br>
 
 
 
