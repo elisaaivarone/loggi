@@ -8,6 +8,15 @@ $(document).ready(function () {
     e.preventDefault();
     console.log('olar')
   })
+
+  
+$('#wrapper ul li #collapseTwo .bg-white .collapse-header li a').click(function(e){
+  if(this.target.val() == "centro") {
+    e.preventDefault();
+    alert("oi")
+  };
+});
+
 });
 
 

@@ -74,12 +74,13 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Selecione a zona:</h6>
-            <a class="collapse-item" id="centerZone" href="">Centro</a>
-            <a class="collapse-item" id="eastZone" href="">Zona Leste</a>
-            <a class="collapse-item" id="northZone" href="">Zona Norte</a>
-            <a class="collapse-item" id="westZone" href="">Zona Oeste</a>
-            <a class="collapse-item" id="southZone" href="">Zona Sul</a>
+            <ul class="collapse-header">Selecione a zona:
+            <li value="centro"><a class="collapse-item" id="centerZone" href="">Centro</a></li>
+            <li><a class="collapse-item" id="eastZone" href="">Zona Leste</a></li>
+            <li><a class="collapse-item" id="northZone" href="">Zona Norte</a></li>
+            <li><a class="collapse-item" id="westZone" href="">Zona Oeste</a></li>
+            <li><a class="collapse-item" id="southZone" href="">Zona Sul</a></li>
+          </ul>
           </div>
         </div>
       </li>
@@ -247,7 +248,7 @@
 
 
   <script src="src/js/apiloggi.js"></script>
-  <script src=""></script>
+  <script src="src/js/index.js"></script>
   <script src="./src/js/maps.js"></script>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtgPiyHG2B2YorNAFof4Inj2fOQXl0xE&libraries=visualization&callback=initMap">
