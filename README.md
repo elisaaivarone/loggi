@@ -21,7 +21,7 @@ Projeto desenvolvido para o Hackaton "Talent Fest" realizado na conclusão do bo
 ## O Desafio
 Desenvolver aplicação web permitindo que os usuários (funcionários da empresa Loggi) consultem as áreas com maior concentração de entregadores / mensageiros.
 A visualização destes dados deve acontecer a partir de um mapa de calor.
-Requisitos:
+Requisitos: <br>
 [API LOGGI](https://docs.api.loggi.com/) <br>
 [API GOOGLE](https://cloud.google.com/maps-platform/?hl=pt-br/)
 
