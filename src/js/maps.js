@@ -11,6 +11,7 @@ function initMap() {
 
   const script = document.createElement('script');
 
+
   script.src = 'https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js';
   document.getElementsByTagName('head')[0].appendChild(script);
 }
@@ -25,4 +26,5 @@ function eqfeed_callback(results) {
     });
   })
 }
+
 

@@ -1,0 +1,48 @@
+.bg-login-image {
+  background-image: url('/src/img/bg-logo-loggi.png');
+}
+
+.flex-bg {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.nav-color {
+  background-color: #00BAFF;
+}
+  
+.color-map {
+  background-color: black;
+}
+
+.profile-img {
+  font-size: 200%;
+  color: #00BAFF;
+}
+
+.btn-search {
+  background-color: #00BAFF;
+  color: #ffffff;
+}
+
+.btn-hamburguer {
+  color: #00BAFF;
+}
+
+.icon-logo-nav {
+  width: 80%;
+}
+
+.text-logo-nav {
+  width: 50%;
+  margin: 0;
+}
+
+.icon-color {
+  color: white !important;
+}
+
+.footer-size {
+  padding: 22px !important;
+}
