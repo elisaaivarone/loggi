@@ -31,7 +31,7 @@
   color: #ffffff;
 }
 
-.btn-hamburguer {
+.btn-hamburguer, .btn-enter {
   color: #00BAFF;
 }
 
@@ -50,4 +50,26 @@
 
 .footer-size {
   padding: 22px !important;
+}
+
+.text-title {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Montserrat;
+}
+.sub-title {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left; 
+}
+
+.btn-enter {
+  background-color: #ffffff;
+  margin-top: 15px;
+
+}
+
+.container-margin {
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
