@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <link rel="stylesheet" href="./src/css/maps.css"> 
+  <link rel="stylesheet" href="./src/css/maps.css">
 
   <title>Mapa de Calor</title>
 
@@ -73,15 +73,14 @@
           <span class="icon-color">São Paulo</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <ul class="collapse-header">Selecione a zona:
-            <li value="centro"><a class="collapse-item" id="centerZone" href="">Centro</a></li>
-            <li><a class="collapse-item" id="eastZone" href="">Zona Leste</a></li>
-            <li><a class="collapse-item" id="northZone" href="">Zona Norte</a></li>
-            <li><a class="collapse-item" id="westZone" href="">Zona Oeste</a></li>
-            <li><a class="collapse-item" id="southZone" href="">Zona Sul</a></li>
-          </ul>
-          </div>
+          <select name="Selecione a zona:" id="select-region" class="bg-white py-2 collapse-inner rounded">
+            <option class="collapse-item" value="centerZone">Selecione</option>
+            <option class="collapse-item" value="centerZone">Centro</option>
+            <option class="collapse-item" value="eastZone">Zona Leste</option>
+            <option class="collapse-item" value="northZone">Zona Norte</option>
+            <option class="collapse-item" value="westZone">Zona Oeste</option>
+            <option class="collapse-item" value="southZone">Zona Sul</option>
+          </select>
         </div>
       </li>
 
@@ -189,7 +188,7 @@
 
         <!-- Start map -->
         <div id="map" class="container-fluid"></div>
-      
+
         <!-- End map -->
 
       </div>
@@ -246,7 +245,7 @@
   <!-- Custom scripts for all pages-->
   <script src="/startbootstrap-sb-admin-2-gh-pages/js/sb-admin-2.min.js"></script>
 
-
+  <script src="src/js/regionsSp.js"></script>
   <script src="src/js/apiloggi.js"></script>
   <script src="src/js/index.js"></script>
   <script src="./src/js/maps.js"></script>
