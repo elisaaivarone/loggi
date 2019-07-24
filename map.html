@@ -9,6 +9,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+  <link rel="stylesheet" href="./src/css/maps.css"> 
+
   <title>Mapa de Calor</title>
 
   <!-- Custom favicon for this template-->
@@ -36,10 +38,10 @@
     <ul class="navbar-nav sidebar sidebar-dark accordion nav-color" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center size-nav" href="">
         <div class="sidebar-brand-icon">
           <!-- <i class="fas fa-laugh-wink"></i> -->
-          <img src="/src/img/icon-loggi-negativo.png" alt="Ícone logo Loggi" class="icon-logo-nav">
+          <img src="/src/img/icon-loggi-negativo.png" id="loggi-icon" alt="Ícone logo Loggi" class="icon-logo-nav">
         </div>
         <img src="/src/img/text-loggi-negativo.png" alt="Logo Loggi" class="sidebar-brand-text mx-3 text-logo-nav">
 
@@ -73,11 +75,11 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Selecione a zona:</h6>
-            <a class="collapse-item" href="">Centro</a>
-            <a class="collapse-item" href="">Zona Leste</a>
-            <a class="collapse-item" href="">Zona Norte</a>
-            <a class="collapse-item" href="">Zona Oeste</a>
-            <a class="collapse-item" href="">Zona Sul</a>
+            <a class="collapse-item" id="centerZone" href="">Centro</a>
+            <a class="collapse-item" id="eastZone" href="">Zona Leste</a>
+            <a class="collapse-item" id="northZone" href="">Zona Norte</a>
+            <a class="collapse-item" id="westZone" href="">Zona Oeste</a>
+            <a class="collapse-item" id="southZone" href="">Zona Sul</a>
           </div>
         </div>
       </li>
@@ -99,7 +101,7 @@
       <div id="content" class="color-map">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow size-topbar">
 
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-hamburguer d-md-none rounded-circle mr-3">
@@ -185,8 +187,8 @@
         <!-- End of Topbar -->
 
         <!-- Start map -->
-        <div class="container-fluid color-map">
-        </div>
+        <div id="map" class="container-fluid"></div>
+      
         <!-- End map -->
 
       </div>
@@ -242,6 +244,14 @@
 
   <!-- Custom scripts for all pages-->
   <script src="/startbootstrap-sb-admin-2-gh-pages/js/sb-admin-2.min.js"></script>
+
+
+  <script src="src/js/apiloggi.js"></script>
+  <script src=""></script>
+  <script src="./src/js/maps.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtgPiyHG2B2YorNAFof4Inj2fOQXl0xE&libraries=visualization&callback=initMap">
+    </script>
 
 </body>
 

@@ -12,8 +12,13 @@
   background-color: #00BAFF;
 }
   
-.color-map {
-  background-color: black;
+.size-topbar {
+  height: 100px;
+  margin-bottom: 0px !important;
+}
+
+.size-nav {
+  height: 98px !important;
 }
 
 .profile-img {
