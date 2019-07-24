@@ -68,6 +68,25 @@ Utilizamos as linguagens / framework / API: <br>
 -Maps JavaScript API <br>
 -Loggi API <br>
 
+## ROADMAP OFICIAL DO PROJETO
+
+#### Versão 1.0.0 (released)
+- funcionalidades: .   
+
+#### Versão 1.0.1 
+- implementar:
+React.js
+
+
+  
+#### Versão 1.0.2   
+- funcionalidades: correção do README e inclusão da funcionalidade de validar números CPF com todos os dígitos iguais como `inválidos`.  
+
+#### Versão 1.0.3 
+- funcionalidades: correção do README.    
+
+#### Versão 1.0.4 
+- funcionalidades: valida números de CPF com e sem pontuação.  
 
 
 
