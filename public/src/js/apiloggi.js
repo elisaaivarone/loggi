@@ -1,10 +1,11 @@
-function getDrivers() {
+const center = { lat: -23.55, lng: -46.63 }
+
+function getDrivers(center) {
 
   const endpoint = "https://www.loggi.com/graphql";
 
   const email = 'janarf@hotmail.com'
   const apiKey = '8948455f695c5890af5f2e9ff18ef1ac3b1b3c35'
-  const center = { lat: -23.55, lng: -46.63 }
   const queryapi = `{
 	closestDrivers(productType: 0, transportType: "1", lat:${center.lat}, lng: ${center.lng}, radius: 10.0, limit: 3000, citySlug:"sp") {
 		driversCount

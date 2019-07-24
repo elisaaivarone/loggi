@@ -7,11 +7,13 @@ $(document).ready(function () {
     e.preventDefault();
   })
 
-  $("#select-region").change(function () {
-    var selectedRegion = $(this).children("option:selected").val();
-    changeRegion(selectedRegion)
-  });
+  localStorage.setItem('center', myCenter);
 
+  $("#select-region").change(function () {
+    let selectedRegion = $(this).children("option:selected").val();
+    changeRegion(selectedRegion);
+    localStorage.set('center', regionsSP[regionName]);
+  });
 });
 
 
