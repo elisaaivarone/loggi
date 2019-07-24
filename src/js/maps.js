@@ -30,5 +30,3 @@ function eqfeed_callback(results) {
 function changeRegion(regionName) {
   map.setCenter(regionsSP[regionName])
 }
-
-
