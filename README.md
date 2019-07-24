@@ -8,7 +8,7 @@ Projeto desenvolvido por: <br>
 
 [Link da aplicação](https://rebecaborges.github.io/loggi/)
 
-![Layout](mockup-loggi.jpg)
+![Screenshot](./assets/person-bruno.png)
 
 Projeto desenvolvido para o Hackaton "Talent Fest" realizado na conclusão do bootcamp de formação para Desenvolvedoras Front-End da **Laboratória** - campus SP - Brasil.
 
@@ -67,6 +67,8 @@ Utilizamos as linguagens / framework / API: <br>
 -GraphQL <br>
 -Maps JavaScript API <br>
 -Loggi API <br>
+
+
 
 
 
