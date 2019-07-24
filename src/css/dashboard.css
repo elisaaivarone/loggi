@@ -12,8 +12,8 @@
   background-color: #00BAFF;
 }
   
-.color-map {
-  background-color: black;
+.size-nav {
+height: 100px;
 }
 
 .profile-img {
@@ -31,16 +31,18 @@
 }
 
 .icon-logo-nav {
-  width: 80%;
+  width: 70%;
+  
 }
 
 .text-logo-nav {
-  width: 50%;
+  width: 40%;
   margin: 0;
 }
 
 .icon-color {
   color: white !important;
+  font-size: 1rem !important;
 }
 
 .footer-size {
