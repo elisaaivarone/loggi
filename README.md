@@ -8,7 +8,7 @@ Projeto desenvolvido por: <br>
 
 [Link da aplicação](https://rebecaborges.github.io/loggi/)
 
-![Screenshot](./assets/person-bruno.png)
+![Screenshot](./assets/mockup-loggi.jpg)
 
 Projeto desenvolvido para o Hackaton "Talent Fest" realizado na conclusão do bootcamp de formação para Desenvolvedoras Front-End da **Laboratória** - campus SP - Brasil.
 
