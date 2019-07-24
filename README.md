@@ -8,6 +8,8 @@ Projeto desenvolvido por: <br>
 
 [Link da aplicação](https://rebecaborges.github.io/loggi/)
 
+![Screenshot](./assets/mockup-loggi.jpg)
+
 Projeto desenvolvido para o Hackaton "Talent Fest" realizado na conclusão do bootcamp de formação para Desenvolvedoras Front-End da **Laboratória** - campus SP - Brasil.
 
 ## Índice
@@ -21,47 +23,55 @@ Projeto desenvolvido para o Hackaton "Talent Fest" realizado na conclusão do bo
 ## O Desafio
 Desenvolver aplicação web permitindo que os usuários (funcionários da empresa Loggi) consultem as áreas com maior concentração de entregadores / mensageiros.
 A visualização destes dados deve acontecer a partir de um mapa de calor.
-Requisitos:
-[API LOGGI](https://docs.api.loggi.com/)
+Requisitos: <br>
+[API LOGGI](https://docs.api.loggi.com/) <br>
 [API GOOGLE](https://cloud.google.com/maps-platform/?hl=pt-br/)
 
 Definir o conceito de regiões dentro da cidade de SP (centro, norte, sul, leste e oeste).
 
 Outros projetos:
--Implementar essa solução para as cidades: Rio de Janeiro, Belo Horizonte, Recife, Manaus e Brasília.
--Mostrar no mapa a posição de diferentes mensageiros na cidade.
--Possibilitar mudar o mapa de calor para mostrar regiões mais quentes ou mais frias e criar alerta.
+-Implementar essa solução para as cidades: Rio de Janeiro, Belo Horizonte, Recife, Manaus e Brasília. <br>
+-Mostrar no mapa a posição de diferentes mensageiros na cidade. <br>
+-Possibilitar mudar o mapa de calor para mostrar regiões mais quentes ou mais frias e criar alerta. <br>
 
 ## Organização
 
-Para a divisão de tarefas utilizamos Kaban + ferramenta **Trello**.
+Para a divisão de tarefas utilizamos Kanban + ferramenta **Trello**.
 
-Em ambas situações, dividimos o projeto em mini partes. Foram priorizadas utilizando dois critérios principais: o que era necessário para formar o _mvp_ do projeto, cumprindo os requisitos obrigatórios e a distribuição foi por afinidade.
+Dividimos o projeto em mini partes e foram priorizados dois critérios principais: <br>
+o que era necessário para formar o _MVP_ do projeto, cumprindo os requisitos obrigatórios e a distribuição foi por afinidade.
 As cerimônias aconteciam de 2 em 2 horas para que todo o squad tivesse total conhecimento do que as integrantes estavam fazendo, definir os próximos passos e sugerir ideias para resolver os impedimentos.
 
 [Trello Loggi](https://trello.com/b/E36CkXJS/talent-loggi)
 
 ## UX
 
--Brainstorm
--Crazy 4´s
--Protótipo
--Teste de usabilidade
--Feedback das pessoas que passavam para ver o projeto
+-Brainstorm <br>
+-Crazy 4´s <br>
+-Protótipo <br>
+-Teste de usabilidade <br>
+-Feedback das pessoas que passavam para ver o projeto <br>
 
 ## Personas
 
-As personas foram baseadas a partir da informação de que um ou mais funcionários iriam fazer a análise do resultado desta consulta.
+As personas foram criadas a partir do brienfing da Loggi, pensando que o usuário é um funcionário e irá análisar do resultado desta consulta.
 
 ## Definição do produto
 
-Site responsivo para pesquisa de concentração de mensageiros Loggi na cidade de SP e por regiões.
-Futuras implementações compreenderão as cidades: Belo Horizonte, Rio de Janeiro, Recife, Manaus e Brasília
-Utilizamos as linguagens / framework / API:
--Javascript Vanilla JS
--Bootstrap v.4
--Maps JavaScript API
--Loggi API
+Site responsivo para pesquisa "real time" da concentração de mensageiros Loggi na cidade de SP e por regiões.<br>
+Futuras implementações compreenderão as cidades: Belo Horizonte, Rio de Janeiro, Recife, Manaus e Brasília. <br>
 
+Utilizamos as linguagens / framework / API: <br>
+-Javascript Vanilla JS <br>
+-Bootstrap v.4 <br>
+-GraphQL <br>
+-Maps JavaScript API <br>
+-Loggi API <br>
 
+## ROADMAP OFICIAL DO PROJETO
 
+#### Versão 1.0.0 (released)
+- implementações: mapa de calor, pesquisa por região de SP, layout responsivo, utilização de fetch para requisições,  
+
+#### Versão 1.0.1 
+- implementar: React.js, Relay, mapa dos bairros, incluir pesquisa por outras cidades.
