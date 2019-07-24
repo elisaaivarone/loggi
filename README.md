@@ -13,7 +13,8 @@ Projeto desenvolvido para o Hackaton "Talent Fest" promovido na conclusão do bo
 
 ## Índice
 
-* [Organização](#A-organização)
+* [O Desafio](#O-Desafio)
+* [Organização](#Organização)
 * [Checklist](#Checklist)
 * [Personas](#Personas)
 * [Definição do produto](#Definição-do-produto)
@@ -21,10 +22,13 @@ Projeto desenvolvido para o Hackaton "Talent Fest" promovido na conclusão do bo
 * [Testes de usabilidade](#Testes-de-usabilidade)
 
 
-## A organização
+## O Desafio
+Desenvolver aplicação web que permita que os usuários (funcionários da empresa Loggi) consultem as áreas com maior concentração de entregadores / mensageiros.
+
+## Organização
 
 Para a divisão de tarefas utilizamos Kaban + ferramenta **Trello**.
 
 Em ambas situações, dividimos o projeto em mini partes. Foram priorizadas utilizando 2 critérios principais: o que era necessário para formar o _esqueleto_ do site e os requisitos obrigatórios e o que "nós" como desenvolvedora tinhamos mais afinidade no desenvolvimento, deixando o que demandaria mais tempo de aprendizagem e de desenvolvimento por último. Todos os itens possuiam data definida para o término.
 
-[Trello Loggi](https://trello.com/invite/b/qJ3Bf00s/8a48912b62a88909ed1dbd86afe2aa93/data-lovers)
+[Trello Loggi](https://trello.com/b/E36CkXJS/talent-loggi)
