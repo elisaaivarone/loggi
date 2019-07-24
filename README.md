@@ -8,6 +8,8 @@ Projeto desenvolvido por: <br>
 
 [Link da aplicação](https://rebecaborges.github.io/loggi/)
 
+![Layout](mockup-loggi.jpg)
+
 Projeto desenvolvido para o Hackaton "Talent Fest" realizado na conclusão do bootcamp de formação para Desenvolvedoras Front-End da **Laboratória** - campus SP - Brasil.
 
 ## Índice
@@ -52,17 +54,20 @@ As cerimônias aconteciam de 2 em 2 horas para que todo o squad tivesse total co
 
 ## Personas
 
-As personas foram baseadas a partir da informação de que um ou mais funcionários da Loggi iriam fazer a análise do resultado desta consulta.
+As personas foram criadas a partir do brienfing da Loggi, pensando que o usuário é um funcionário e irá análisar do resultado desta consulta.
 
 ## Definição do produto
 
-Site responsivo para pesquisa de concentração de mensageiros Loggi na cidade de SP e por regiões.<br>
+Site responsivo para pesquisa "real time" da concentração de mensageiros Loggi na cidade de SP e por regiões.<br>
 Futuras implementações compreenderão as cidades: Belo Horizonte, Rio de Janeiro, Recife, Manaus e Brasília. <br>
+
 Utilizamos as linguagens / framework / API: <br>
 -Javascript Vanilla JS <br>
 -Bootstrap v.4 <br>
+-GraphQL <br>
 -Maps JavaScript API <br>
 -Loggi API <br>
+
 
 
 
