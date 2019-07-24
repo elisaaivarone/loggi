@@ -34,9 +34,10 @@ Outros projetos:
 
 ## Organização
 
-Para a divisão de tarefas utilizamos Kaban + ferramenta **Trello**.
+Para a divisão de tarefas utilizamos Kanban + ferramenta **Trello**.
 
-Em ambas situações, dividimos o projeto em mini partes. Foram priorizadas utilizando dois critérios principais: o que era necessário para formar o _mvp_ do projeto, cumprindo os requisitos obrigatórios e a distribuição foi por afinidade.
+Dividimos o projeto em mini partes e foram priorizados dois critérios principais: <br>
+o que era necessário para formar o _MVP_ do projeto, cumprindo os requisitos obrigatórios e a distribuição foi por afinidade.
 As cerimônias aconteciam de 2 em 2 horas para que todo o squad tivesse total conhecimento do que as integrantes estavam fazendo, definir os próximos passos e sugerir ideias para resolver os impedimentos.
 
 [Trello Loggi](https://trello.com/b/E36CkXJS/talent-loggi)
@@ -51,7 +52,7 @@ As cerimônias aconteciam de 2 em 2 horas para que todo o squad tivesse total co
 
 ## Personas
 
-As personas foram baseadas a partir da informação de que um ou mais funcionários iriam fazer a análise do resultado desta consulta.
+As personas foram baseadas a partir da informação de que um ou mais funcionários da Loggi iriam fazer a análise do resultado desta consulta.
 
 ## Definição do produto
 
