@@ -1,4 +1,4 @@
-let map;
+let map, heatmap;
 
 const center = { lat: -23.55, lng: -46.63 };
 
@@ -17,12 +17,15 @@ function initMap() {
 
 function eqfeed_callback(results) {
   getDrivers().then(drivers => {
-    const heatmapData = drivers.map(driver => new google.maps.LatLng(driver.lat, driver.lng));
-    const heatmap = new google.maps.visualization.HeatmapLayer({
+    const heatmapData = drivers.map(driver =>
+      new google.maps.LatLng(driver.lat, driver.lng));
+    heatmap ? heatmap.setMap(null) : null
+    heatmap = new google.maps.visualization.HeatmapLayer({
       data: heatmapData,
       radius: 20,
       map: map,
     });
-  })
+  });
 }
 
+setInterval(eqfeed_callback, 5000)
