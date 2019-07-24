@@ -9,6 +9,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+  <link rel="stylesheet" href="./src/css/maps.css"> 
+
   <title>Mapa de Calor</title>
 
   <!-- Custom favicon for this template-->
@@ -99,7 +101,7 @@
       <div id="content" class="color-map">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow size-topbar">
 
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-hamburguer d-md-none rounded-circle mr-3">
@@ -185,8 +187,8 @@
         <!-- End of Topbar -->
 
         <!-- Start map -->
-        <div class="container-fluid color-map">
-        </div>
+        <div id="map" class="container-fluid"></div>
+      
         <!-- End map -->
 
       </div>
@@ -242,7 +244,15 @@
 
   <!-- Custom scripts for all pages-->
   <script src="/startbootstrap-sb-admin-2-gh-pages/js/sb-admin-2.min.js"></script>
-  <script src="src/js/index.js"></script>
+
+
+  <script src="src/js/apiloggi.js"></script>
+  <script src=""></script>
+  <script src="./src/js/maps.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtgPiyHG2B2YorNAFof4Inj2fOQXl0xE&libraries=visualization&callback=initMap">
+    </script>
+
 </body>
 
 </html>
