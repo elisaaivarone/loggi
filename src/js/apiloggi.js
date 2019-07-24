@@ -9,13 +9,13 @@ function getDrivers() {
 	closestDrivers(productType: 0, transportType: "1", lat:${center.lat}, lng: ${center.lng}, radius: 10.0, limit: 3000, citySlug:"sp") {
 		driversCount
 		readyDriversCount
-busyDriversCount
-drivers {
-lng
-lat
-busy
-}
-}
+    busyDriversCount
+    drivers {
+    lng
+    lat
+    busy
+    }
+  }
 }`;
 
   const options = {

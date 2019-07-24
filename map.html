@@ -41,7 +41,7 @@
       <a class="sidebar-brand d-flex align-items-center justify-content-center size-nav" href="">
         <div class="sidebar-brand-icon">
           <!-- <i class="fas fa-laugh-wink"></i> -->
-          <img src="/src/img/icon-loggi-negativo.png" alt="Ícone logo Loggi" class="icon-logo-nav">
+          <img src="/src/img/icon-loggi-negativo.png" id="loggi-icon" alt="Ícone logo Loggi" class="icon-logo-nav">
         </div>
         <img src="/src/img/text-loggi-negativo.png" alt="Logo Loggi" class="sidebar-brand-text mx-3 text-logo-nav">
 
@@ -75,11 +75,11 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Selecione a zona:</h6>
-            <a class="collapse-item" href="">Centro</a>
-            <a class="collapse-item" href="">Zona Leste</a>
-            <a class="collapse-item" href="">Zona Norte</a>
-            <a class="collapse-item" href="">Zona Oeste</a>
-            <a class="collapse-item" href="">Zona Sul</a>
+            <a class="collapse-item" id="centerZone" href="">Centro</a>
+            <a class="collapse-item" id="eastZone" href="">Zona Leste</a>
+            <a class="collapse-item" id="northZone" href="">Zona Norte</a>
+            <a class="collapse-item" id="westZone" href="">Zona Oeste</a>
+            <a class="collapse-item" id="southZone" href="">Zona Sul</a>
           </div>
         </div>
       </li>
@@ -244,6 +244,7 @@
 
   <!-- Custom scripts for all pages-->
   <script src="/startbootstrap-sb-admin-2-gh-pages/js/sb-admin-2.min.js"></script>
+
 
   <script src="src/js/apiloggi.js"></script>
   <script src=""></script>
