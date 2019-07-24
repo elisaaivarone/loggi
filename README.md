@@ -71,24 +71,7 @@ Utilizamos as linguagens / framework / API: <br>
 ## ROADMAP OFICIAL DO PROJETO
 
 #### Versão 1.0.0 (released)
-- funcionalidades: .   
+- implementações: mapa de calor, pesquisa por região de SP, layout responsivo, utilização de fetch para requisições,  
 
 #### Versão 1.0.1 
-- implementar:
-React.js
-
-
-  
-#### Versão 1.0.2   
-- funcionalidades: correção do README e inclusão da funcionalidade de validar números CPF com todos os dígitos iguais como `inválidos`.  
-
-#### Versão 1.0.3 
-- funcionalidades: correção do README.    
-
-#### Versão 1.0.4 
-- funcionalidades: valida números de CPF com e sem pontuação.  
-
-
-
-
-
+- implementar: React.js, Relay, mapa dos bairros, incluir pesquisa por outras cidades.
