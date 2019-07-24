@@ -22,15 +22,15 @@ Projeto desenvolvido para o Hackaton "Talent Fest" realizado na conclusão do bo
 Desenvolver aplicação web permitindo que os usuários (funcionários da empresa Loggi) consultem as áreas com maior concentração de entregadores / mensageiros.
 A visualização destes dados deve acontecer a partir de um mapa de calor.
 Requisitos:
-[API LOGGI](https://docs.api.loggi.com/)
+[API LOGGI](https://docs.api.loggi.com/) <br>
 [API GOOGLE](https://cloud.google.com/maps-platform/?hl=pt-br/)
 
 Definir o conceito de regiões dentro da cidade de SP (centro, norte, sul, leste e oeste).
 
 Outros projetos:
--Implementar essa solução para as cidades: Rio de Janeiro, Belo Horizonte, Recife, Manaus e Brasília.
--Mostrar no mapa a posição de diferentes mensageiros na cidade.
--Possibilitar mudar o mapa de calor para mostrar regiões mais quentes ou mais frias e criar alerta.
+-Implementar essa solução para as cidades: Rio de Janeiro, Belo Horizonte, Recife, Manaus e Brasília. <br>
+-Mostrar no mapa a posição de diferentes mensageiros na cidade. <br>
+-Possibilitar mudar o mapa de calor para mostrar regiões mais quentes ou mais frias e criar alerta. <br>
 
 ## Organização
 
@@ -55,9 +55,9 @@ As personas foram baseadas a partir da informação de que um ou mais funcionár
 
 ## Definição do produto
 
-Site responsivo para pesquisa de concentração de mensageiros Loggi na cidade de SP e por regiões.
-Futuras implementações compreenderão as cidades: Belo Horizonte, Rio de Janeiro, Recife, Manaus e Brasília
-Utilizamos as linguagens / framework / API:
+Site responsivo para pesquisa de concentração de mensageiros Loggi na cidade de SP e por regiões.<br>
+Futuras implementações compreenderão as cidades: Belo Horizonte, Rio de Janeiro, Recife, Manaus e Brasília. <br>
+Utilizamos as linguagens / framework / API: <br>
 -Javascript Vanilla JS <br>
 -Bootstrap v.4 <br>
 -Maps JavaScript API <br>
