@@ -21,6 +21,8 @@
 
   <link href="./startbootstrap-sb-admin-2-gh-pages/css/sb-admin-2.min.css" rel="stylesheet">
   <link href="./src/css/dashboard.css" rel="stylesheet">
+  <link href="./src/css/maps.css" rel="stylesheet">
+
 
 </head>
 
@@ -54,15 +56,15 @@
             <span class="icon-color">São Paulo</span>
           </a>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-              <select name="Selecione a zona:" id="select-region" class="bg-white py-2 collapse-inner rounded">
-                <option class="collapse-item" value="centerZone">Selecione</option>
-                <option class="collapse-item" value="centerZone">Centro</option>
-                <option class="collapse-item" value="eastZone">Zona Leste</option>
-                <option class="collapse-item" value="northZone">Zona Norte</option>
-                <option class="collapse-item" value="westZone">Zona Oeste</option>
-                <option class="collapse-item" value="southZone">Zona Sul</option>
-              </select>
-            </div>
+            <select name="Selecione a zona:" id="select-region" class="bg-white py-2 collapse-inner rounded">
+              <option class="collapse-item" value="centerZone">Selecione</option>
+              <option class="collapse-item" value="centerZone">Centro</option>
+              <option class="collapse-item" value="eastZone">Zona Leste</option>
+              <option class="collapse-item" value="northZone">Zona Norte</option>
+              <option class="collapse-item" value="westZone">Zona Oeste</option>
+              <option class="collapse-item" value="southZone">Zona Sul</option>
+            </select>
+          </div>
         </li>
         <hr class="sidebar-divider">
         <div class="text-center d-none d-md-inline">
@@ -95,7 +97,7 @@
                 <span class="badge badge-danger badge-counter">3+</span>
               </a>
             </li>
-              <div class="topbar-divider d-none d-sm-block"></div>
+            <div class="topbar-divider d-none d-sm-block"></div>
             <li class="nav-item">
               <a class="nav-link">
                 <i class="fas fa-user-circle profile-img"></i>
@@ -119,7 +121,7 @@
   <script src="./src/js/maps.js"></script>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtgPiyHG2B2YorNAFof4Inj2fOQXl0xE&libraries=visualization&callback=initMap">
-  </script>
+    </script>
 
 </body>
 
