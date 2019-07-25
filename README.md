@@ -6,7 +6,7 @@ Projeto desenvolvido por: <br>
 *Rebeca Borges Felix*, <br>
 *Yara Guimarães de Oliveira*
 
-[Link da aplicação](https://rebecaborges.github.io/loggi/)
+[Link da aplicação](https://loggitalent.firebaseapp.com/map.html)
 
 ![Screenshot](./assets/mockup-loggi.jpg)
 
